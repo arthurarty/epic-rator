@@ -7,5 +7,6 @@ class SignIn:
         for k in self.User:
             if k["username"] == username and k["password"] == password:
                 return k
+        return None
 
 
