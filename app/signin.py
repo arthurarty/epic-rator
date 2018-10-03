@@ -5,7 +5,7 @@ class SignIn:
 
     def signin(self, username, password):
         for k in self.User:
-            if k["username"] == username:
+            if k["username"] == username and k["password"] == password:
                 return k
 
 
