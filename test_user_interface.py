@@ -1,5 +1,5 @@
 import pytest
-from run import *
+from app import welcome, signup_sign_menu
 
 def test_welcome():
     resp = welcome()
